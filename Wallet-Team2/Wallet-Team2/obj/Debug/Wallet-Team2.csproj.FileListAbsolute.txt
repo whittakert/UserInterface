@@ -1,0 +1,10 @@
+C:\Users\whittakert\Desktop\FPT2S15-UserInterface2\FPT2S15-UserInterface2\Wallet-Team2\Wallet-Team2\bin\Debug\Wallet-Team2.exe.config
+C:\Users\whittakert\Desktop\Wallet-Team2\Wallet-Team2\bin\Debug\Wallet-Team2.exe.config
+C:\Users\whittakert\Desktop\UserInterface\Wallet-Team2\Wallet-Team2\bin\Debug\Wallet-Team2.exe.config
+C:\Users\whittakert\Desktop\UserInterface\Wallet-Team2\Wallet-Team2\bin\Debug\Wallet-Team2.exe
+C:\Users\whittakert\Desktop\UserInterface\Wallet-Team2\Wallet-Team2\bin\Debug\Wallet-Team2.pdb
+C:\Users\whittakert\Desktop\UserInterface\Wallet-Team2\Wallet-Team2\obj\Debug\Wallet-Team2.csprojResolveAssemblyReference.cache
+C:\Users\whittakert\Desktop\UserInterface\Wallet-Team2\Wallet-Team2\obj\Debug\Wallet_Team2.Properties.Resources.resources
+C:\Users\whittakert\Desktop\UserInterface\Wallet-Team2\Wallet-Team2\obj\Debug\Wallet-Team2.csproj.GenerateResource.Cache
+C:\Users\whittakert\Desktop\UserInterface\Wallet-Team2\Wallet-Team2\obj\Debug\Wallet-Team2.exe
+C:\Users\whittakert\Desktop\UserInterface\Wallet-Team2\Wallet-Team2\obj\Debug\Wallet-Team2.pdb

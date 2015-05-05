@@ -1,0 +1,172 @@
+﻿<!DOCTYPE html>
+
+<!--<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>UserInterface Web Application</title>
+</head>
+<body>-->
+    <!--<script type="text/javascript">
+        function WriteToFile()
+        {
+
+            var fso = new ActiveXObject("Scripting.FileSystemObject");
+            var s = fso.CreateTextFile("c:\\NewFile.txt", true); // cant find where this is writing
+            var text = document.getElementById("TextArea1").innerText;
+            //var downloadLink = document.createElement("a");
+            s.WriteLine(("#UsernameField").valueOf() + "\r \n" + ("#PasswordField").valueOf() + "\r \n" + ("#FirstNameField").valueOf()); // not all of the feilds
+            //<a href="#" id="downloadLink"> Download the inner html</a>
+            //downloadLink.download = s;
+            //downloadLink.innerHTML = "Download File";
+            //if (window.webkitURL != null) {
+            //    // Chrome allows the link to be clicked
+            //    // without actually adding it to the DOM.
+            //    downloadLink.href = window.webkitURL.createObjectURL(textFileAsBlob);
+            //}
+            //else {
+            //    // Firefox requires the link to be added to the DOM
+            //    // before it can be clicked.
+            //    downloadLink.href = window.URL.createObjectURL(textFileAsBlob);
+            //    downloadLink.onclick = destroyClickedElement;
+            //    downloadLink.style.display = "none";
+            //    document.body.appendChild(downloadLink);
+            //}
+
+            //downloadLink.click();
+            
+        }
+        </script>-->
+<html>
+<head><title> HTML Web App</title>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script type="text/javascript" src="base64.js"></script>
+<script type="text/javascript">
+    <!--
+    //this will generate text file based on form data
+        function buildData() {
+            var txtData = $("#usernameID").val() + "\r\n" + $("#passwordID").val() + "\r\n" + $("#emailID").val() + "\r\n" + $("#firstNameID").val() + "\r\n" + $("#lastNameID").val() + "\r\n" + $("#addressID").val() + "\r\n" + $("#cityID").val() + "\r\n" + $("#stateID").val() + "\r\n" + $("#zipCodeID").val() + "\r\n" + $("#phoneID").val() + "\r\n" +  $("#questionID").val() + "\r\n" + $("#answerID").val();
+            return txtData;
+        }
+
+        $(function(){
+            $("#formToSave").submit(function(event){
+                event.preventDefault();
+                var txtData = buildData();
+                window.location.href = "data:/application/octet-stream;base64, " + btoa(txtData);
+            });
+
+            $("#submitLink").click(function(event){
+                var txtData = buildData();
+                $(this).attr('download','testFile.txt')
+                    .attr('href',"data:application/octet-stream;base64," + btoa(txtData));
+            });
+        });
+
+    </script>
+    UI Web App
+    <!--<script type="text/javascript">
+
+        function saveTextAsFile() {
+            //var textToWrite = document.getElementById("userNameID" + "passwordID" + "firstNameID" + "lastNameID" + "addressID" + "cityID" + "stateID" + "phoneID" + "cardNumberID" + "expDateID" + "secCodeID" + "zipCodeID").value;
+            var userNameToWrite = document.getElementById("userNameID").value;
+            var passToWrite = document.getElementById("passwordID").value;
+            var firstToWrite = document.getElementById("firstNameID").value;
+            var lastToWrite = document.getElementById("lastNameID").value;
+            var addressToWrite = document.getElementById("addressID").value;
+            var cityToWrite = document.getElementById("cityID").value;
+            var stateToWrite = document.getElementById("stateID").value;
+            var phoneToWrite = document.getElementById("phoneID").value;
+            var cardToWrite = document.getElementById("cardNumberID").value;
+            var expDateToWrite = document.getElementById("expDateID").value;
+            var secCodeToWrite = document.getElementById("secCodeID").value;
+            var zipCodeToWrite = document.getElementById("zipCodeID").value;
+            var textFileAsBlob = new Blob([userNameToWrite, passToWrite, firstToWrite, lastToWrite, addressToWrite, cityToWrite, stateToWrite, phoneToWrite, cardToWrite, expDateToWrite, secCodeToWrite, zipCodeToWrite], { type: 'text/plain' });
+            var fileNameToSaveAs = document.getElementById("inputFileNameToSaveAs").value; //
+
+            var downloadLink = document.createElement("a");
+            downloadLink.download = fileNameToSaveAs;
+            downloadLink.innerHTML = "Download File";
+            if (window.webkitURL != null) {
+                // Chrome allows the link to be clicked
+                // without actually adding it to the DOM.
+                downloadLink.href = window.webkitURL.createObjectURL(textFileAsBlob);
+            }
+            else {
+                // Firefox requires the link to be added to the DOM
+                // before it can be clicked.
+                downloadLink.href = window.URL.createObjectURL(textFileAsBlob);
+                downloadLink.onclick = destroyClickedElement;
+                downloadLink.style.display = "none";
+                document.body.appendChild(downloadLink);
+            }
+
+            downloadLink.click();
+        }
+
+        function destroyClickedElement(event) {
+            document.body.removeChild(event.target);
+        }
+
+    </script>-->
+
+    <!--<form name="User Interface Web App">-->
+    </head>
+<body>
+    <form method="post" action="" id="formToSave">
+
+        User Name:<br> <! this is a label, I think this is how you comment>
+        <input type="text" name="Username" id="usernameID">
+        <br>
+        Password:<br> <! this is also a label>
+        <input type="text" name="Password" id="passwordID">
+        <br>
+        Email: <br> <! this is also a label>
+        <input type="text" name="Email" id="emailID">
+        <br>
+        First Name:<br> <! this is also a label>
+        <input type="text" name="FirstName" id="firstNameID">
+        <br>
+        Last Name:<br> <! this is also a label>
+        <input type="text" name="LastName" id="lastNameID" >
+        <br>
+        Street Address:<br> <! this is also a label>
+        <input type="text" name="Address" id="addressID">
+        <br>
+        City:<br> <! this is also a label>
+        <input type="text" name="City" id="cityID">
+        <br>
+        State:<br> <! this is also a label>
+        <input type="text" name="State" id="stateID">
+        <br>
+        ZipCode:<br> <! this is also a label>
+        <input type="text" name="zipCode" id="zipCodeID">
+        <br>
+        Phone Number:<br> <! this is also a label>
+        <input type="text" name="Phone" id="phoneID">
+        <br>
+        Recovery Question:<br> <! this is also a label>
+        <input type="text" name="question" id="questionID" />
+        <br>
+        Answer: <br> <! this is also a label> 
+        <input type="text" name="answer" id="answerID" />
+        <br>
+
+        
+        <!--<tr>
+            <td>Filename to Save As:</td>
+            <td><input id="inputFileNameToSaveAs"></input></td>
+            <td><button onclick="saveTextAsFile()">Save Text to File</button></td>
+        </tr>-->
+        <!--<button onclick="WriteToFile()">Click to save</button>-->
+        <p><a href="javascript://Save as TXT" id="submitLink">Save as TXT</a></p>
+
+        <!--<p><button type="submit"><img src="http://www.suttonrunners.org/images/save_icon.gif" alt="" /> Save as TXT</button></p>-- saves as something weird>-->
+    </form>
+
+    <script type="text/javascript">
+
+    </script>
+</body>
+
+</html>
+

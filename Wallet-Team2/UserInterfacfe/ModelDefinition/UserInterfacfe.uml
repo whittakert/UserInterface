@@ -1,0 +1,569 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="09e2d26c-bcf8-46d6-a2a7-db91295587ee"
+  name="UserInterfacfe" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b">
+      <profileInstance
+        Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791"
+        name="StandardProfileL2" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="29349502-908c-4fda-9054-c48619c59ed0">
+      <profileInstance
+        Id="532ea607-fb19-44b8-8502-3351b05452be"
+        name="StandardProfileL3" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="b2a90e47-eba7-4857-92db-1b773e81fc5e"
+        name="TestController"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <targetEnds>
+          <association
+            Id="134b9af4-eafb-43a8-a10d-c59f6b852404"
+            isDerived="false"
+            sourceEndRoleName="TestController"
+            targetEndRoleName="TestUserProfileData"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="185435f2-823f-4baf-94c3-5f5a4173eaa8"
+              LastKnownName="TestUserProfileData"
+              LastKnownLocation="UserInterfacfe.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="254d8286-a0b7-41a0-b767-43b91e04e8ef"
+                  name="TestController"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="abc6bdc3-0d84-4201-8060-ea422abf50bb"
+                  name="TestUserProfileData"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="185435f2-823f-4baf-94c3-5f5a4173eaa8"
+        name="TestUserProfileData"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="66ef27d4-1ef8-4a77-8794-630e0cdfb30d"
+        name="Login Form"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <suppliersInternal>
+          <interfaceRealization
+            Id="fdd52f58-4dc5-4010-abd1-2404027e6655">
+            <interfaceMoniker
+              Id="b815b933-fe1c-4429-a32b-c5accd344a60"
+              LastKnownName="Interface"
+              LastKnownLocation="UserInterfacfe.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <targetEnds>
+          <association
+            Id="09ba7ef8-952f-4585-bc6a-1ef74315b162"
+            isDerived="false"
+            sourceEndRoleName="Login Form"
+            targetEndRoleName="TestUserProfileData"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="185435f2-823f-4baf-94c3-5f5a4173eaa8"
+              LastKnownName="TestUserProfileData"
+              LastKnownLocation="UserInterfacfe.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="f49162b2-b667-4e69-9002-44cd57980609"
+                  name="Login Form"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="73fe53ef-0e25-4f8f-b042-0eca70d84b0e"
+                  name="TestUserProfileData"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="17a99551-0c1d-4104-8d9f-4d8ccc203331"
+            isDerived="false"
+            sourceEndRoleName="Login Form"
+            targetEndRoleName="Create Account"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="3fe3ede2-460f-4f70-b4f3-6460e11e37e9"
+              LastKnownName="Create Account"
+              LastKnownLocation="UserInterfacfe.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="a1a35e39-c342-46b7-934a-f0494e3af702"
+                  name="Login Form"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="1ccf274a-b650-430f-a1ba-4658c5ab0c0c"
+                  name="Create Account"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="286dee85-9f34-4df3-8537-d9a4b7727fec"
+            isDerived="false"
+            sourceEndRoleName="Login Form"
+            targetEndRoleName="Forgot Password"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="7fe608a9-2dda-4fff-9beb-c55486498d24"
+              LastKnownName="Forgot Password"
+              LastKnownLocation="UserInterfacfe.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="e479de45-364b-4af6-959f-e08dba5f6790"
+                  name="Login Form"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="0ffb27c3-7ffd-416e-a61d-15b0c362608a"
+                  name="Forgot Password"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="e53a7744-f83f-4f2b-bb67-6f8feb0ef0dc"
+            isDerived="false"
+            sourceEndRoleName="Login Form"
+            targetEndRoleName="Main Form"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="2b21b3fe-9220-426d-ba5f-bfec33ce8d67"
+              LastKnownName="Main Form"
+              LastKnownLocation="UserInterfacfe.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="66cfb977-a191-4a56-bf63-47ec16fe3697"
+                  name="Login Form"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="7734350f-abca-437a-9200-d5e243273072"
+                  name="Main Form"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="3fe3ede2-460f-4f70-b4f3-6460e11e37e9"
+        name="Create Account"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="7fe608a9-2dda-4fff-9beb-c55486498d24"
+        name="Forgot Password"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="2b21b3fe-9220-426d-ba5f-bfec33ce8d67"
+        name="Main Form"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <targetEnds>
+          <association
+            Id="bb7a75dc-c6ad-4d38-9aae-5f9e109ebc40"
+            isDerived="false"
+            sourceEndRoleName="Main Form"
+            targetEndRoleName="Payment Options/MakePurchase"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="293a36b7-5c3e-4800-b004-885383faef90"
+              LastKnownName="Payment Options/MakePurchase"
+              LastKnownLocation="UserInterfacfe.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="f7b5230f-6848-4c15-89da-d979899793a2"
+                  name="Main Form"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="8a5e4613-8684-42a3-b17d-c6606698c3fc"
+                  name="Payment Options/MakePurchase"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="e1211a4c-f12b-4e33-9963-700735c0089b"
+            isDerived="false"
+            sourceEndRoleName="Main Form"
+            targetEndRoleName="Account Settings"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="4b09ebf0-ad03-4158-a219-ac5bfedf6bdd"
+              LastKnownName="Account Settings"
+              LastKnownLocation="UserInterfacfe.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="b93f12eb-274d-4688-a4c9-de932d7c7ac1"
+                  name="Main Form"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="ec8d6bef-9f6a-45a1-afe6-2a6f426206d6"
+                  name="Account Settings"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="40f4afca-5085-4b46-a23a-ecb95de956f3"
+            isDerived="false"
+            sourceEndRoleName="Main Form"
+            targetEndRoleName="Text File"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="641e7b94-4d62-4b5d-9213-e571658c8df2"
+              LastKnownName="Text File"
+              LastKnownLocation="UserInterfacfe.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="361480ec-e4ac-4eea-9e0b-9501f32195f9"
+                  name="Main Form"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="78114336-0223-461f-8409-f5bd8af5ae15"
+                  name="Text File"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="293a36b7-5c3e-4800-b004-885383faef90"
+        name="Payment Options/MakePurchase"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="4b09ebf0-ad03-4158-a219-ac5bfedf6bdd"
+        name="Account Settings"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="641e7b94-4d62-4b5d-9213-e571658c8df2"
+        name="Text File"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="d07ef81b-f97b-473e-848e-103497b45ec0"
+        name="HTML"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <targetEnds>
+          <association
+            Id="ec328378-3aa5-4a63-9d53-0d12ca784b28"
+            isDerived="false"
+            sourceEndRoleName="HTML"
+            targetEndRoleName="Create Account"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="3fe3ede2-460f-4f70-b4f3-6460e11e37e9"
+              LastKnownName="Create Account"
+              LastKnownLocation="UserInterfacfe.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="87c3c54b-2ddb-45a7-a5ee-1a798d64c497"
+                  name="HTML"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="b8c2b5d3-4181-4480-927d-813b4dd7a09a"
+                  name="Create Account"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="b815b933-fe1c-4429-a32b-c5accd344a60"
+        name="Interface"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="f0d0f888-37d2-4c62-91ab-2c981898cc79"
+        name="WC Controller"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <suppliersInternal>
+          <interfaceRealization
+            Id="c5c58c6c-b965-46e4-888f-67b5139a6698">
+            <interfaceMoniker
+              Id="b815b933-fe1c-4429-a32b-c5accd344a60"
+              LastKnownName="Interface"
+              LastKnownLocation="UserInterfacfe.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="5f76925c-9a1f-4113-990a-77663b75c487"
+        name="WC Model"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <targetEnds>
+          <association
+            Id="5ac3d900-644f-4937-bde9-7b0ed2f69d73"
+            isDerived="false"
+            sourceEndRoleName="WC Model"
+            targetEndRoleName="WC Controller"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="f0d0f888-37d2-4c62-91ab-2c981898cc79"
+              LastKnownName="WC Controller"
+              LastKnownLocation="UserInterfacfe.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="9b2e690f-2277-4d82-b4f0-5132a8fc53f5"
+                  name="WC Model"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="0b9adb06-fc6e-4d39-8f3f-8137b040c300"
+                  name="WC Controller"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+  <primitiveType
+    Id="220a3521-e091-4221-bae9-3ef9018e845c"
+    name="Integer"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+    name="Boolean"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+    name="String"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="3ab42e7d-4969-445a-b209-471f5cb8209c"
+    name="UnlimitedNatural"
+    isAbstract="false"
+    isLeaf="false" />
+</modelStoreModel>

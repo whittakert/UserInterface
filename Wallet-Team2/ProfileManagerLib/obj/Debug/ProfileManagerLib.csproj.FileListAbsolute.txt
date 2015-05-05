@@ -1,0 +1,4 @@
+C:\Users\whittakert\Desktop\UserInterface\Wallet-Team2\ProfileManagerLib\bin\Debug\ProfileManagerLib.dll
+C:\Users\whittakert\Desktop\UserInterface\Wallet-Team2\ProfileManagerLib\bin\Debug\ProfileManagerLib.pdb
+C:\Users\whittakert\Desktop\UserInterface\Wallet-Team2\ProfileManagerLib\obj\Debug\ProfileManagerLib.dll
+C:\Users\whittakert\Desktop\UserInterface\Wallet-Team2\ProfileManagerLib\obj\Debug\ProfileManagerLib.pdb

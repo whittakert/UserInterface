@@ -1,0 +1,14 @@
+C:\Users\whittakert\Desktop\UserInterface\Wallet-Team2\ProfileManagerTestView\bin\Debug\ProfileManagerTestView.exe.config
+C:\Users\whittakert\Desktop\UserInterface\Wallet-Team2\ProfileManagerTestView\bin\Debug\ProfileManagerTestView.exe
+C:\Users\whittakert\Desktop\UserInterface\Wallet-Team2\ProfileManagerTestView\bin\Debug\ProfileManagerTestView.pdb
+C:\Users\whittakert\Desktop\UserInterface\Wallet-Team2\ProfileManagerTestView\bin\Debug\ProfileManagerLib.dll
+C:\Users\whittakert\Desktop\UserInterface\Wallet-Team2\ProfileManagerTestView\bin\Debug\ProfileManagerLib.pdb
+C:\Users\whittakert\Desktop\UserInterface\Wallet-Team2\ProfileManagerTestView\obj\Debug\ProfileManagerTestView.csprojResolveAssemblyReference.cache
+C:\Users\whittakert\Desktop\UserInterface\Wallet-Team2\ProfileManagerTestView\obj\Debug\ProfileManagerTestView.AddUser.resources
+C:\Users\whittakert\Desktop\UserInterface\Wallet-Team2\ProfileManagerTestView\obj\Debug\ProfileManagerTestView.EditAddress.resources
+C:\Users\whittakert\Desktop\UserInterface\Wallet-Team2\ProfileManagerTestView\obj\Debug\ProfileManagerTestView.PasswordChange.resources
+C:\Users\whittakert\Desktop\UserInterface\Wallet-Team2\ProfileManagerTestView\obj\Debug\ProfileManagerTestView.ViewDB.resources
+C:\Users\whittakert\Desktop\UserInterface\Wallet-Team2\ProfileManagerTestView\obj\Debug\ProfileManagerTestView.Properties.Resources.resources
+C:\Users\whittakert\Desktop\UserInterface\Wallet-Team2\ProfileManagerTestView\obj\Debug\ProfileManagerTestView.csproj.GenerateResource.Cache
+C:\Users\whittakert\Desktop\UserInterface\Wallet-Team2\ProfileManagerTestView\obj\Debug\ProfileManagerTestView.exe
+C:\Users\whittakert\Desktop\UserInterface\Wallet-Team2\ProfileManagerTestView\obj\Debug\ProfileManagerTestView.pdb

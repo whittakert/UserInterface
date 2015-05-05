@@ -1,0 +1,16 @@
+C:\Users\whittakert\Desktop\UserInterface\Wallet-Team2\UserInterface\bin\Debug\UserInterface.exe.config
+C:\Users\whittakert\Desktop\UserInterface\Wallet-Team2\UserInterface\bin\Debug\UserInterface.exe
+C:\Users\whittakert\Desktop\UserInterface\Wallet-Team2\UserInterface\bin\Debug\UserInterface.pdb
+C:\Users\whittakert\Desktop\UserInterface\Wallet-Team2\UserInterface\obj\Debug\UserInterface.AccountSettings.resources
+C:\Users\whittakert\Desktop\UserInterface\Wallet-Team2\UserInterface\obj\Debug\UserInterface.CreateAccount.resources
+C:\Users\whittakert\Desktop\UserInterface\Wallet-Team2\UserInterface\obj\Debug\UserInterface.ForgotPassword.resources
+C:\Users\whittakert\Desktop\UserInterface\Wallet-Team2\UserInterface\obj\Debug\UserInterface.LoginForm.resources
+C:\Users\whittakert\Desktop\UserInterface\Wallet-Team2\UserInterface\obj\Debug\UserInterface.MainForm.resources
+C:\Users\whittakert\Desktop\UserInterface\Wallet-Team2\UserInterface\obj\Debug\UserInterface.MakePurchase.resources
+C:\Users\whittakert\Desktop\UserInterface\Wallet-Team2\UserInterface\obj\Debug\UserInterface.NewPaymentForm.resources
+C:\Users\whittakert\Desktop\UserInterface\Wallet-Team2\UserInterface\obj\Debug\UserInterface.PaymentOptions.resources
+C:\Users\whittakert\Desktop\UserInterface\Wallet-Team2\UserInterface\obj\Debug\UserInterface.Properties.Resources.resources
+C:\Users\whittakert\Desktop\UserInterface\Wallet-Team2\UserInterface\obj\Debug\UserInterface.csproj.GenerateResource.Cache
+C:\Users\whittakert\Desktop\UserInterface\Wallet-Team2\UserInterface\obj\Debug\UserInterface.exe
+C:\Users\whittakert\Desktop\UserInterface\Wallet-Team2\UserInterface\obj\Debug\UserInterface.pdb
+C:\Users\whittakert\Desktop\UserInterface\Wallet-Team2\UserInterface\obj\Debug\UserInterface.csprojResolveAssemblyReference.cache
